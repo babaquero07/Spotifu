@@ -1,0 +1,42 @@
+.playlistHeader {
+    display: flex;
+    max-inline-size: 39.9375rem;
+}
+
+.playlistHeader-cover img {
+    inline-size: 19.5rem;
+    block-size: 11.4375rem;
+    vertical-align: middle;
+    margin-right: 1.5rem;
+}
+
+.playlistHeader-title {
+    color: var(--white);
+    font: var(--headline1);
+    margin: 0;
+}
+
+.playlistHeader-text {
+    color: var(--white);
+    font: var(--baseFont);
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+.playlistHeader-button {
+    color: var(--white);
+    font: var(--small);
+    background: var(--primary);
+    border: none;
+    border-radius: 4.375rem;
+    block-size: 2rem;
+    inline-size: 9.5625rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    padding-block-start: .5rem;
+    padding-block-end: .5rem;
+}
+
+.playlistHeader-button:hover {
+    cursor: pointer;
+}

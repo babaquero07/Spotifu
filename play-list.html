@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Proyecto Spotifu del curso Flexbox Layout y componentes"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="#paginaweb" />
+        <meta property="og:image" content="#" />
+        <meta property="og:description"
+        content="Proyecto Spotifu del curso Flexbox Layout y componentes de Leonidas Esteban"/>
+        <title>Playlist Content</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body class="body">
+        <div class="layout">
+            <div class="layout-block">
+                <div class="layout-sidebar">
+                    <div class="sidebar">
+                        <header class="logo">
+                            <a href="/" aria-current="page">
+                                <img src="./assets/images/spotifu-logo.png" class="logo-image" alt="Logo de Spotifu">
+                            </a>
+                        </header>
+                        <nav class="menu" aria-label="Principal">
+                            <ul class="menu-list">
+                                <li class="menuItem is-active">
+                                    <a href="/" class="link" aria-current="page">
+                                        <i class="icon-home" aria-hidden="true"></i>
+                                        <span>Inicio</span>
+                                    </a>
+                                </li>
+                                <li class="menuItem">
+                                    <a href="/" class="link">
+                                        <i class="icon-search" aria-hidden="true"></i>
+                                        <span>Buscar</span>
+                                    </a>
+                                </li>
+                                <li class="menuItem">
+                                    <a href="/" class="link">
+                                        <i class="icon-creditCard" aria-hidden="true"></i>
+                                        <span>Premium</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="list" aria-labelledby="library-navigation">
+                            <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+                            <ul class="list-content">
+                                <li class="list-item">
+                                    <a href="#" class="link">Creada para ti</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link">Escuchado recientemente</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="link">Tus Me Gusta</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="list" aria-labelledby="playlist-navigation">
+                            <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+                            <ul class="list-content">
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Lo mejor de los mejor</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Naruto al 100% para progr…</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Para cantar en la ducha</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Sin parar</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Naruto openings</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <div class="elipsis">
+                                        <a href="#" class="link">Boku no pico</a>
+                                    </div>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">This is Pokémon</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Más populares de la semana</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="elipsis">
+                                        <a href="#" class="link">Mis pistas de shazam</a>
+                                    </span>
+                                </li>
+                                <li class="list-item">
+                                    <div class="elipsis">
+                                        <a href="#" class="link">Audio Library</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="layout-main">
+                    <div class="page">
+                        <div class="sticky">
+                            <div class="page-block">
+                            <header class="header" aria-label="Barra superior y menu del usuario">
+                                <div class="navigation">
+                                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                                        <icon class="icon-arrowLeft" aria-hidden="true"></icon>
+                                    </button>
+                                    <button class="navigation-next"  disabled aria-label="Avanzar" title="Avanzar">
+                                        <icon class="icon-arrowRight" aria-hidden="true"></icon>
+                                    </button>
+                                </div>
+                                <form class="search" role="search" aria-label="Artistas, canciones o pódcasts">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <input class="" type="search" placeholder="Artistas, canciones o pódcasts">
+                                </form>
+                            </header>
+                        </div>
+                        <main class="page-block">
+                            <div class="playlistHeader">
+                                <div class="playlistHeader-cover">
+                                    <img src="./assets/images/bad-bunny.png" alt="Cover de la playlist">
+                                </div>
+                                <div class="playlisHeader-content">
+                                    <h2 class="playlistHeader-title">Mansión Reggaetón</h2>
+                                    <p class="playlistHeader-text">Los éxitos de reggaetón del momento.
+                                    2,611,830 SEGUIDORES</p>
+                                    <button class="playlistHeader-button" aria-label="Reproducir" title="Reproducir">REPRODUCIR</button>
+                                </div>
+                            </div>
+                            <div class="playlistContent">
+                                <div class="playlistContent-filter">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <span>Filtrar</span>
+                                </div>
+                                <div class="playlistContent-head">
+                                    <span class="playlistContent-title">TÍTULO</span>
+                                    <span>ARTISTA</span>
+                                    <SPAN>ÁLBUM</SPAN>
+                                    <i class="icon-calendar"></i>
+                                    <i class="icon-addPlus"></i>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                                <div class="playlistContent-song">
+                                    <div class="playlistContent-song-controls">
+                                        <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                            <i class="icon-play" aria-hidden="true"></i>
+                                        </button>
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="playlistContent-song-details">
+                                        <p class="playlistContent-song-title">Grand Escape</p>
+                                        <p class="playlistContent-song-artist">RADWIMPS</p>
+                                        <p class="playlistContent-song-album">Weathering With You</p>
+                                        <p class="playlistContent-song-dateIncorporated">2021-02-10</p>
+                                        <p class="playlistContent-song-duration">3:25</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-block">
+                <footer class="layout-bottom">
+                    <div class="player">
+                        <div class="player-nowPlaying">
+                            <div class="nowPlaying">
+                                <div class="nowPlaying-cover">
+                                    <img src="./assets/images/gran-scape.png" alt="Caratula tema en reproduccion">
+                                </div>
+                                <div class="nowPlaying-details">
+                                    <div class="nowPlaying-description">
+                                        <a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)
+                                        </a>
+                                        <a href="$RADWIMPS" class="nowPlaying-artist">RADWIMPS, Toko Miura
+                                        </a>
+                                    </div>
+                                    <div class="nowPlaying-actions">
+                                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu bilioteca">
+                                            <i class="icon-heart" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-playerControls">
+                            <div class="playerControls">
+                                <div class="playerControls-buttons" aria-label="Controles de reproduccion">
+                                    <button class="buttonIcon" aria-label="Anterior" title="Reproducir">
+                                        <i class="icon-prev" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                                        <i class="icon-play" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="buttonIcon" aria-label="Siguiente" title="Reproducir">
+                                        <i class="icon-next" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="playerPlayback">
+                                    <span class="playerPlayback-progressTime">01:40</span>
+                                    <div class="playerPlayback-slider">
+                                        <div class="slider">
+                                            <div class="slider-progress">
+                                                <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                                            </div>
+                                    </div>
+                                </div>
+                                <span class="playerPlayback-progressTime">01:40</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="player-playerVolume">
+                            <div class="playerVolume">
+                                <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+                                    <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+                                </button>
+                                <div class="playerVolume-slider">
+                                    <div class="slider">
+                                        <div class="slider-progress">
+                                            <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

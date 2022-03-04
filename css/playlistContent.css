@@ -1,0 +1,69 @@
+.playlistContent-filter {
+    inline-size: 100%;
+    block-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.playlistContent-filter span {
+    margin-inline-start: .5rem;
+}
+
+.icon-search:hover{
+    cursor: pointer;
+}
+
+.playlistContent-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    block-size: 2.72rem;
+    margin-block-start: 1rem;
+}
+
+.playlistContent-title {
+    margin-inline-start: 6rem;
+}
+
+.playlistContent-song {
+    display: flex;
+    align-items: center;
+    block-size: 2.75rem;
+    inline-size: 740px;
+}
+
+.playlistContent-song-controls {
+    display: flex;
+}
+
+.playlistContent-song .buttonIcon.is-white {
+    inline-size: 2.125rem;
+    block-size: 2.125rem;
+    margin-inline-start: 0.625rem;
+    margin-inline-end: 0.625rem;
+    margin-block-start: 0.625rem;
+    margin-block-end: 0.625rem;
+    background: var(--gray50);
+    color: var(--white);
+    border: 0.428571px solid #FFFFFF;
+}
+
+.playlistContent-song .player-control {
+    color: var(--white);
+}
+
+.playlistContent-song-details {
+    block-size: inherit;
+    inline-size: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlistContent-song-title, .playlistContent-song-artist, .playlistContent-song-album{
+    color: var(--white);
+    margin: 0;
+    margin-block-start: 0.6875rem;
+    margin-block-end: 0.6875rem;
+    margin-inline-start: 0.625rem;
+    margin-inline-end: 0.625rem;
+}
