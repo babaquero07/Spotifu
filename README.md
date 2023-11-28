@@ -7,4 +7,4 @@
     Proyecto: Spotifu es un clon exacto de la interfaz web de Spotify.
 
 
-<a href="babaquero07.github.io/Spotifu/" target="__blank">Deploy</a>
+<a href="https://babaquero07.github.io/Spotifu/" target="__blank">Deploy</a>
