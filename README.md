@@ -5,3 +5,6 @@
     Unidades relativas: el proyecto completo se adaptará solo cambiando un tamaño de fuente.
     Flujo diseñador / programador: evaluamos las circunstancias de intercambio de ideas en tu equipo.
     Proyecto: Spotifu es un clon exacto de la interfaz web de Spotify.
+
+
+<a href="babaquero07.github.io/Spotifu/" target="__blank">Deploy</a>
